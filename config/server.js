@@ -5,5 +5,7 @@ module.exports = ({ env }) => ({
     auth: {
       secret: env('ADMIN_JWT_SECRET', 'e4635c82b3abfcead7ccbd80e3c1c8cf'),
     },
+    host: 'localhost',
+    port: 8003
   },
 });
